@@ -10,6 +10,7 @@ function Mostrar()
 
 	{
 		alert("sos mayor de edad")
-	}		
+	}	
+
 
 }//FIN DE LA FUNCIÓN
