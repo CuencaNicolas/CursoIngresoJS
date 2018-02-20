@@ -12,12 +12,12 @@ function Mostrar()
 		contador++;
 		numero=prompt("");
 		numero=parseint(numero);
-		acumulaor=acuulador+numero;
+		acumulaor=acumulador+numero;
 	}
 	
 	promedio=acumulador/contador;
 
 	document.getElementById('suma').value=acumulador;
-	document.getElementById('promedio').value=acumulador/5;
+	document.getElementById('promedio').value=acumulador;
 
 }//FIN DE LA FUNCIÓN
