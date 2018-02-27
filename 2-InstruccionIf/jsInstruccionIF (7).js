@@ -11,7 +11,6 @@ function Mostrar()
 	edad=document.getElementById('edad').value;	
 	estadoCivil=document.getElementById('estadoCivil').value;
 
-	alert(estadoCivil);
 
 	if(estadoCivil !="Soltero" && edad <18)
 		{
