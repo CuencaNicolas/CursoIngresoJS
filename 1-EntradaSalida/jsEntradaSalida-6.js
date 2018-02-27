@@ -43,7 +43,7 @@ function sumar()
 	resultado=numeroUno+numeroDos;
 	
 	//demostramos el resultado de los numeros que queramos sumar
-	alert(resultado);
+	alert("La suma es "+resultado);
 
 
 

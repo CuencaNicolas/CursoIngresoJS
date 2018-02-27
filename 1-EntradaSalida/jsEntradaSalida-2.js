@@ -4,8 +4,8 @@ function Mostar()
 {
 	var nombre;//este la uso
 	var edad;//este no
-	nombre=prompt("ingrese nombre","natalia natalia");
-	alert("su nombre es: "+nombre);
+	nombre=prompt("Ingrese nombre","natalia natalia");
+	alert("Su nombre es "+nombre);
 
 	//para realizar apuntes 
     /*alert(nombre)
