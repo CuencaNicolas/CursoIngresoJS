@@ -11,6 +11,7 @@ function Mostrar()
 
 	numeroUno=prompt("Ingrese primer número");
 	numeroUno=parseInt(numeroUno);
+	
 	numeroDos=prompt("Ingrese segundo número");
 	numeroDos=parseInt(numeroDos);
 
@@ -20,11 +21,11 @@ function Mostrar()
 	}
 	else
 	{
-		if(numeroUno<numeroDos)
+		if(numeroUno>numeroDos)
 		{
 			resultado=numeroUno*numeroDos;
 	    }
-	    if(numeroUno>numeroDos)
+	    if(numeroUno<numeroDos)
 	    {
 		    resultado=numeroUno-numeroDos;
 	    }
@@ -33,7 +34,7 @@ function Mostrar()
 	    	resultado=resultado+" es par";
 	    }
     }
-	    alert(respuesta);
+	    alert(resultado);
 	
 
 
